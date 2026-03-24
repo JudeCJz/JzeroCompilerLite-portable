@@ -39,4 +39,4 @@ To use this version, you only need the following files kept in the same director
 ![Main View](screenshots/main_view.png)
 
 ---
-Developed with ❤️ by **Jude**. Optimized for speed and beauty.
+Developed with ❤️. Optimized for speed and beauty.
