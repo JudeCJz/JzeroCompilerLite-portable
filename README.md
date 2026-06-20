@@ -1,42 +1,49 @@
-# Jzero Compiler Native Lite (Portable) 🚀
+# Jzero Compiler Native Lite (Portable)
 
-**Jzero Compiler Native Lite** is a high-performance, ultra-lightweight C development environment. This repository contains the **Portable Distribution**, pre-configured for instant C development on Windows.
-
----
-
-## 📦 What's Included?
-To use this version, you only need the following files kept in the same directory:
-- **`JzeroCompilerNativeLite.exe`**: The main executable.
-- **`FastColoredTextBox.dll`**: Essential editor library.
-- **`gcc/`**: The bundled MinGW toolchain (entire folder).
-- **`screenshots/`**: UI previews.
-
-## 🚀 Getting Started
-1. **Download**: Grab the latest release or clone this repository.
-2. **Run**: Launch `JzeroCompilerNativeLite.exe`.
-3. **Code**: The app is set to use the bundled `gcc` at `gcc\bin\gcc.exe` automatically.
-
-## ✨ Highlights
-- **💨 Lightning Fast**: Starts in under 1 second.
-- **🔋 Battery Efficient**: Consumes minimal RAM compared to modern IDEs.
-- **🎨 Custom Themes**: Ocean, Amber, Carbon, and more included.
-- **🛠️ All-in-One**: No separate GCC installation required.
+A lightweight, native WinForms development environment for C and C++ programming. This repository contains the portable distribution, pre-configured with a bundled GCC toolchain for instant setup on Windows.
 
 ---
 
-## ⌨️ Shortcuts
+## What's Included
+
+To run the portable version, ensure the following files and folders remain in the same directory:
+- `JzeroCompilerNativeLite.exe` — The main application executable.
+- `FastColoredTextBox.dll` — The core editor component.
+- `gcc/` — The pre-configured MinGW compiler toolchain.
+
+---
+
+## Getting Started
+
+1. Download the latest release from the Releases page or clone this repository.
+2. Launch `JzeroCompilerNativeLite.exe`.
+3. Choose your workspace directory to start coding. The IDE automatically detects and uses the compiler at `gcc\bin\gcc.exe` or `gcc\bin\g++.exe`.
+
+---
+
+## Features
+
+- **Instant Launch**: Starts quickly with low memory utilization.
+- **Embedded Toolchain**: No manual path configuration or compiler installation required.
+- **Multi-Theme UI**: Includes visual options such as Ocean, Amber, and Carbon.
+
+---
+
+## Productivity Shortcuts
 
 | Shortcut | Action |
 | --- | --- |
-| `F5` | Compile + Run |
-| `Ctrl + Space` | Autocomplete |
-| `Ctrl + S` | Save |
-| `Ctrl + B` | Hide Workspace |
+| `F5` | Compile and Run (restarts active execution if running) |
+| `Ctrl + Space` | Trigger basic autocomplete |
+| `Ctrl + S` | Save active file |
+| `Ctrl + B` | Toggle Workspace Explorer panel |
 
-## 📸 Screenshots
+---
 
-### Modern Interface
+## Screenshots
+
+### Interface Preview
 ![Main View](screenshots/main_view.png)
 
 ---
-Developed with ❤️. Optimized for speed and beauty.
+Optimized for speed, portability, and ease of use.
