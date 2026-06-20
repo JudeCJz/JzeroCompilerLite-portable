@@ -1,13 +1,13 @@
-# Jzero Compiler Native Lite (Portable)
+# Jzero Compiler Lite (Portable)
 
-A lightweight, native WinForms development environment for C and C++ programming. This repository contains the portable distribution, pre-configured with a bundled GCC toolchain for instant setup on Windows.
+A lightweight WinForms development environment for C and C++ programming. This repository contains the portable distribution, pre-configured with a bundled GCC toolchain for instant setup on Windows.
 
 ---
 
 ## What's Included
 
 To run the portable version, ensure the following files and folders remain in the same directory:
-- `JzeroCompilerNativeLite.exe` — The main application executable.
+- `JzeroCompilerLite.exe` — The main application executable.
 - `FastColoredTextBox.dll` — The core editor component.
 - `gcc/` — The pre-configured MinGW compiler toolchain.
 
@@ -16,7 +16,7 @@ To run the portable version, ensure the following files and folders remain in th
 ## Getting Started
 
 1. Download the latest release from the Releases page or clone this repository.
-2. Launch `JzeroCompilerNativeLite.exe`.
+2. Launch `JzeroCompilerLite.exe`.
 3. Choose your workspace directory to start coding. The IDE automatically detects and uses the compiler at `gcc\bin\gcc.exe` or `gcc\bin\g++.exe`.
 
 ---
